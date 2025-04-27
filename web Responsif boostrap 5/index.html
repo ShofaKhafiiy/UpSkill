@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <!-- untuk menunjukan icon pada atas tab browser -->
+    <link rel="shortcut icon" href="/assets/icon/nm.png" type="image/x-icon" />
+    <title>Latihan Boostrap 5</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-danger py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/assets/icon/nm.png"
+            alt="Logo"
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top rounded-2"
+          />
+          <span class="fw-bold text-white">Ngoding</span>
+        </a>
+        <button
+          class="navbar-toggler burgerBorder shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto d-flex gap-3 text-center pt-lg-0 pt-4">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#faq">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar selesai -->
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div
+          class="hero-box d-flex align-items-center justify-content-between flex-md-row flex-column gap-md-0 gap-5"
+        >
+          <div class="box">
+            <h1 class="fw-bold mb-3">
+              Belajar Boostrap Bersama <br />
+              <span class="text-danger"> Ngoding Mastery</span> <br />
+              2024
+            </h1>
+            <p lh-lg mb-4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque optio minima voluptatem vitae pariatur labore aut, vero
+              nesciunt exercitationem accusamus.
+            </p>
+
+            <div>
+              <a href="#about" class="btn btn-danger">Tentang Kami</a>
+              <a href="#project" class="btn btn-outline-danger">Our Projects</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="/assets/images/hero.svg" alt="Hero img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero -->
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-box text-center">
+          <h1 class="fw-bold mb-4">Tentang Kami</h1>
+          <p class="lh-lg mb-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            sapiente minus praesentium laboriosam facilis, sunt saepe harum
+            quasi numquam beatae.
+          </p>
+          <img src="/assets/images/about.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- About selesai -->
+
+    <!-- Service -->
+    <section class="service">
+      <div class="container">
+        <div class="service-box">
+          <h1 class="fw-bold mb-3">Layanan</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <div class="box pt-4 d-flex gap-3 flex-md-row flex-column">
+            <div class="boxs p-4 shadow text-white bg-danger rounded-3">
+              <i class="fa-solid fa-folder-tree mb-3"></i>
+              <h4 class="mb-3 fw-bold">Codingan Terstruktur</h4>
+              <p class="lh-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                obcaecati odit nam necessitatibus, ratione harum voluptate?
+                Beatae laudantium voluptatem neque.
+              </p>
+            </div>
+            <div class="boxs p-4 shadow text-white bg-danger rounded-3">
+              <i class="fa-solid fa-user-tie mb-3"></i>
+              <h4 class="mb-3 fw-bold">Belajar dengan Ahlinya</h4>
+              <p class="lh-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                obcaecati odit nam necessitatibus, ratione harum voluptate?
+                Beatae laudantium voluptatem neque.
+              </p>
+            </div>
+            <div class="boxs p-4 shadow text-white bg-danger rounded-3">
+              <i class="fa-solid fa-star mb-3"></i>
+              <h4 class="mb-3 fw-bold">Semua Gratis</h4>
+              <p class="lh-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                obcaecati odit nam necessitatibus, ratione harum voluptate?
+                Beatae laudantium voluptatem neque.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service -->
+
+    <!-- Project -->
+
+    <section class="project">
+      <div class="container px-4">
+        <div class="project-box">
+          <h1 class="fw-bold mb-3 text-center">Project Kami</h1>
+          <p class="text-center">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <div class="row justify-content-center pt-4 gap-4">
+            <div class="col col-md-5 col-12 shadow p-3 rounded">
+              <img
+                src="/assets/images/projek1.webp"
+                alt="project-img"
+                width="100%"
+              />
+              <h4 class="pt-4 cek">Website Portofolio</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                tenetur dolor eaque quasi, dolorem laboriosam aliquam tempora
+                itaque hic consequuntur.
+              </p>
+              <div>
+                <a href="" class="btn btn-dark">Github</a>
+                <a href="" class="btn btn-danger">View Website</a>
+              </div>
+            </div>
+            <div class="col col-md-5 col-12 shadow p-3 rounded">
+              <img
+                src="/assets/images/projek2.webp"
+                alt="project-img"
+                width="100%"
+              />
+              <h4 class="pt-4 cek">Website Portofolio</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                tenetur dolor eaque quasi, dolorem laboriosam aliquam tempora
+                itaque hic consequuntur.
+              </p>
+              <div>
+                <a href="" class="btn btn-dark">Github</a>
+                <a href="" class="btn btn-danger">View Website</a>
+              </div>
+            </div>
+            <div class="col col-md-5 col-12 shadow p-3 rounded">
+              <img
+                src="/assets/images/projek3.webp"
+                alt="project-img"
+                width="100%"
+              />
+              <h4 class="pt-4 cek">Website Portofolio</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                tenetur dolor eaque quasi, dolorem laboriosam aliquam tempora
+                itaque hic consequuntur.
+              </p>
+              <div>
+                <a href="" class="btn btn-dark">Github</a>
+                <a href="" class="btn btn-danger">View Website</a>
+              </div>
+            </div>
+            <div class="col col-md-5 col-12 shadow p-3 rounded">
+              <img
+                src="/assets/images/projek4.webp"
+                alt="project-img"
+                width="100%"
+              />
+              <h4 class="pt-4 cek">Website Portofolio</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                tenetur dolor eaque quasi, dolorem laboriosam aliquam tempora
+                itaque hic consequuntur.
+              </p>
+              <div>
+                <a href="" class="btn btn-dark">Github</a>
+                <a href="" class="btn btn-danger">View Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project -->
+
+    <!-- FAQ -->
+    <section class="faq">
+      <div class="container">
+        <div class="faq-box"></div>
+      </div>
+    </section>
+    <!-- FAQ -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
