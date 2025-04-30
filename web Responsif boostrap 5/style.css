@@ -19,6 +19,10 @@ section {
   object-fit: cover;
 }
 
+.hero-box .box:nth-child(1) {
+  --animate-delay: 0.5s;
+}
+
 @media (max-width: 992px) {
   .hero-box .box p {
     width: 18.75rem;
@@ -71,3 +75,20 @@ section {
   background-color: aqua;
 }
 /* Project */
+
+/* footer */
+.footer {
+  margin-top: 6.25rem;
+  padding-bottom: 1.1rem;
+}
+
+.footer-box .row .col:nth-child(2) a {
+  opacity: 75%;
+}
+.footer-box .row .col:nth-child(2) a:hover {
+  opacity: 100%;
+}
+
+.copyright {
+  margin-top: 6rem;
+}
